@@ -18,4 +18,6 @@ void main() {
 			scanf_s("%d", &Np[i]);
 			if (Np[i] == -1) break;
 			if (i + 1 >= nSize) size_add(&nSize, &Np);
+
+			for (int j = 0; j <= i; j++)
 		}
