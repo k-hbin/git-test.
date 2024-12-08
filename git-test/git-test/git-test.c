@@ -11,4 +11,4 @@ void main() {
 	int nSize = 3;
 	Np = malloc(sizeof(int) * nSize);
 
-	scanf_s("%d", &Np[0]);
+	scanf_("%d", &Np[0]);
