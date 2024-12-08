@@ -16,6 +16,6 @@ void main() {
 	if (Np[0] != -1) {
 		for (i = 1;; i++) {
 			scanf_s("%d", &Np[i]);
-			if (Np[i] == -1) 
+			if (Np[i] == -1) break;
 			if (i + 1 >= nSize) size_add(&nSize, &Np);
 		}
