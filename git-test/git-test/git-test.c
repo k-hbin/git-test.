@@ -11,4 +11,11 @@ void main() {
 	int nSize = 3;
 	Np = malloc(sizeof(int) * nSize);
 
-	scanf_("%d", &Np[0]);
+	scanf_S("%d", &Np[0]);
+
+	if (Np[0] != -1) {
+		for (i = 1;; i++) {
+			scanf_s("%d", &Np[i]);
+			if (Np[i] == -1) 
+			if (i + 1 >= nSize) size_add(&nSize, &Np);
+		}
