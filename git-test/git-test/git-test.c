@@ -4,3 +4,11 @@
 #include<string.h>
 
 void size_add(int* s, int* arr);
+
+void main() {
+	int* Np;
+	int i = 0;
+	int nSize = 3;
+	Np = malloc(sizeof(int) * nSize);
+
+	scanf_s("%d", &Np[0]);
